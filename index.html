@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中尾のホームページ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div class="load-logo"><img src="art/img/logo_nu.svg" alt=""></div>
+    <div class="load-cover"></div>
+    <div class="oc-manu">
+        <div class="A">三</div>
+        <div class="B">
+            <div class="links">
+                <a href="#"><p class="oc-manu-h1">うんこ</p></a>
+                <a href="#"><p class="oc-manu-h1">うんこ</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+        <div class="movie">
+            <video src="art\video\back.mp4" loop autoplay muted playsinline class="top-video"></video>
+        </div>
+        <div class="out-top-titele">
+            <p class="top-titele">一般的な哺乳類</p>
+        </div>
+    </div>
+    <div class="heder">
+        <div class="heder-top">
+            <img class="logo" src="art\img\logo_nu.svg">
+        </div>
+        <div class="heder-under">
+            <table class="heder-manu">
+                <tr>
+                    <td><a onclick="scroll_news()"><p class="heder-manu-td">news</p></a></td>
+                    <td><a onclick="scroll_detayo1()"><p class="heder-manu-td">points</p></a></td>
+                    <td><a onclick="scrollBlue()"><p class="heder-manu-td">news</p></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-in-1">
+            <br><br><br><br>
+            <iframe id="news" class="news" src="news.html" frameborder="0"></iframe>
+        </div>
+        <br><br><br>
+
+        <div id="detayo1"><!--動かす要素-->
+            <div class="in-detayo">
+                <div class="out-points">
+                    <h2 class="point">Point.01</h2>
+                    <h1 class="point_name" style="margin-top: -10px;">奴は家にいる。寅麿という名の猫が。</h1>
+                    <p class="point-p" style="font-size: 18px;margin-top: -15px;">たぬきっぽい。</p>
+                </div>
+                <img class="point-img" src="art\img\PXL_20240516_233108408.jpg" alt="" >
+            </div>
+        </div>
+
+        <div id="detayo2"><!--動かす要素-->
+        </div>
+
+        <div id="detayo3"><!--動かす要素-->
+        </div>
+        <script src="script/sec-animation.js"></script>
+    </div>
+</body>
+
+</html>
